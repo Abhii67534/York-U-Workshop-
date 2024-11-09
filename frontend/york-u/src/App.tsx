@@ -263,7 +263,7 @@ function App() {
           </p>
 
           {/* Project Cards */}
-          <div className="flex flex-col sm:flex-row justify-center items-center mt-10 gap-6 sm:gap-12">
+          <div className="flex flex-col sm:flex-row justify-center items-center mt-10 gap-6 sm:gap-12 hidden">
             {/* Project 1 - Finger Frenzy */}
             <div className="h-[250px] w-full sm:w-[320px] md:w-[350px] lg:w-[400px] transform transition-transform duration-300 hover:scale-105 shadow-lg hover:shadow-2xl rounded-lg">
               <div className="flex justify-center items-center bg-gradient-to-r from-indigo-700 p-6 rounded-lg hover:bg-indigo-800 transition-all duration-300">
@@ -286,7 +286,7 @@ function App() {
             </div>
 
             {/* Project 2 - Ping Pong */}
-            <div className="h-[250px] ml-5 w-full sm:w-[320px] md:w-[350px] lg:w-[400px] transform transition-transform duration-300 hover:scale-105 shadow-lg hover:shadow-2xl rounded-lg mt-6 sm:mt-0">
+            <div className="h-[250px] ml-5 w-full sm:w-[320px] md:w-[350px] lg:w-[400px] transform transition-transform duration-300 hover:scale-105 shadow-lg hover:shadow-2xl rounded-lg mt-6 sm:mt-0 hidden ">
               <div className="flex justify-center items-center bg-gradient-to-r from-indigo-700 p-6 rounded-lg hover:bg-indigo-800 transition-all duration-300">
                 <div className="text-center">
                   <h3 className="font-bold text-2xl sm:text-3xl text-white mb-4">
