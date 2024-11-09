@@ -39,7 +39,7 @@ function App() {
       Meet the Team
     </h2>
     <p className="text-lg sm:text-xl mb-12 text-center">
-  Meet the team of software engineering students who are delivering today's workshop.
+  Meet the team of software engineering students who are delivering the workshop.
 </p>
 
 
@@ -152,7 +152,7 @@ function App() {
       {/* Team Member 5 */}
       <div className="flex flex-col items-center p-6 rounded-lg transform transition-transform duration-300 hover:scale-105 bg-gradient-to-r from-indigo-700 to-purple-700 shadow-md hover:shadow-lg">
         <img
-          src="/placeholder.png"
+          src="/ryan.jpg"
           alt="Team Member 5"
           className="rounded-full w-24 h-24 mb-4 object-cover"
         />
@@ -160,14 +160,14 @@ function App() {
         <p className="text-sm text-center mb-2">2nd Year Student @Seneca Polytechnic</p>
         <p className="text-sm text-center mb-2">B.E in Software Engineering</p>
         <a
-          href="https://github.com/MohHasan1"
+          href="https://github.com/RRyanDang"
           target="_blank"
           className="text-blue-400 hover:text-blue-500 mt-2"
         >
           GitHub
         </a>
         <a
-          href="https://github.com/MohHasan1"
+          href="https://www.linkedin.com/in/vmdang/"
           target="_blank"
           className="text-blue-400 hover:text-blue-500"
         >
