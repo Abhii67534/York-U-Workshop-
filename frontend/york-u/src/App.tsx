@@ -22,7 +22,7 @@ function App() {
       A hands-on workshop exploring OpenCV and its applications.
     </p>
     <a
-      href="#"
+      href="https://github.com/MohHasan1/York_OpenCV_workshop"
       className="bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-400 hover:from-indigo-500 hover:via-purple-600 hover:to-pink-500 text-white py-2 px-4 rounded-lg text-base sm:text-lg"
     >
       Workshop GitHub Link
@@ -274,18 +274,18 @@ function App() {
             </div>
 
             {/* Project 2 - Ping Pong */}
-            <div className="h-[250px] w-full sm:w-[320px] md:w-[350px] lg:w-[400px] transform transition-transform duration-300 hover:scale-105 shadow-lg hover:shadow-2xl rounded-lg mt-6 sm:mt-0">
+            <div className="h-[250px] ml-5 w-full sm:w-[320px] md:w-[350px] lg:w-[400px] transform transition-transform duration-300 hover:scale-105 shadow-lg hover:shadow-2xl rounded-lg mt-6 sm:mt-0">
               <div className="flex justify-center items-center bg-gradient-to-r from-indigo-700 p-6 rounded-lg hover:bg-indigo-800 transition-all duration-300">
                 <div className="text-center">
                   <h3 className="font-bold text-2xl sm:text-3xl text-white mb-4">
-                    PING PONG
+                    GESTURE PONG
                   </h3>
                   <p className="text-sm text-gray-200 mb-4">
                     A classic Ping Pong game controlled via hand gestures with
                     OpenCV.
                   </p>
                   <a
-                    href="#"
+                    href="https://github.com/MohHasan1/Gesture-Pong"
                     className="inline-block py-2 px-4 bg-transparent text-white border border-white rounded-lg hover:bg-white hover:text-black transition-all duration-300"
                   >
                     GitHub Link
