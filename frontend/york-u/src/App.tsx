@@ -23,6 +23,7 @@ function App() {
     </p>
     <a
       href="https://github.com/MohHasan1/York_OpenCV_workshop"
+      target="_blank"
       className="bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-400 hover:from-indigo-500 hover:via-purple-600 hover:to-pink-500 text-white py-2 px-4 rounded-lg text-base sm:text-lg"
     >
       Workshop GitHub Link
