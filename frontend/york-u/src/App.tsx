@@ -56,12 +56,14 @@ function App() {
         <p className="text-sm text-center mb-2">B.E in Software Engineering</p>
         <a
           href="https://github.com/MohHasan1"
+          target="_blank"
           className="text-blue-400 hover:text-blue-500 mt-2"
         >
           GitHub
         </a>
         <a
           href="https://www.linkedin.com/in/hasan-in/"
+          target="_blank"
           className="text-blue-400 hover:text-blue-500"
         >
           LinkedIn
@@ -80,12 +82,14 @@ function App() {
         <p className="text-sm text-center mb-2">B.E in Software Engineering</p>
         <a
           href="https://github.com/masuma131"
+          target="_blank"
           className="text-blue-400 hover:text-blue-500 mt-2"
         >
           GitHub
         </a>
         <a
           href="https://www.linkedin.com/in/masuma131/"
+          target="_blank"
           className="text-blue-400 hover:text-blue-500"
         >
           LinkedIn
@@ -104,12 +108,14 @@ function App() {
         <p className="text-sm text-center mb-2">B.E in Software Engineering</p>
         <a
           href="https://github.com/Abhii67534"
+          target="_blank"
           className="text-blue-400 hover:text-blue-500 mt-2"
         >
           GitHub
         </a>
         <a
           href="https://www.linkedin.com/in/abhishek-sharma1999/"
+          target="_blank"
           className="text-blue-400 hover:text-blue-500"
         >
           LinkedIn
@@ -128,12 +134,14 @@ function App() {
         <p className="text-sm text-center mb-2">B.E in Software Engineering</p>
         <a
           href="https://github.com/MohHasan1"
+          target="_blank"
           className="text-blue-400 hover:text-blue-500 mt-2"
         >
           GitHub
         </a>
         <a
           href="https://www.linkedin.com/in/mubassir-mohmed-sapa-24165b269/"
+          target="_blank"
           className="text-blue-400 hover:text-blue-500"
         >
           LinkedIn
@@ -152,12 +160,14 @@ function App() {
         <p className="text-sm text-center mb-2">B.E in Software Engineering</p>
         <a
           href="https://github.com/MohHasan1"
+          target="_blank"
           className="text-blue-400 hover:text-blue-500 mt-2"
         >
           GitHub
         </a>
         <a
           href="https://github.com/MohHasan1"
+          target="_blank"
           className="text-blue-400 hover:text-blue-500"
         >
           LinkedIn
@@ -264,7 +274,8 @@ function App() {
                     A fun game based on hand gesture recognition using OpenCV.
                   </p>
                   <a
-                    href="#"
+                    href="https://github.com/MohHasan1/Finger-Frenzy"
+                    target="_blank"
                     className="inline-block py-2 px-4 bg-transparent text-white border border-white rounded-lg hover:bg-white hover:text-black transition-all duration-300"
                   >
                     GitHub Link
@@ -286,6 +297,7 @@ function App() {
                   </p>
                   <a
                     href="https://github.com/MohHasan1/Gesture-Pong"
+                    target="_blank"
                     className="inline-block py-2 px-4 bg-transparent text-white border border-white rounded-lg hover:bg-white hover:text-black transition-all duration-300"
                   >
                     GitHub Link
