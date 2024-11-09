@@ -1,7 +1,5 @@
 import "./App.css";
 import Meteors from "./components/ui/meteors";
-import { MagicCard } from "./components/ui/magic-card";
-import { Button } from "./components/ui/button";
 
 function App() {
   return (
