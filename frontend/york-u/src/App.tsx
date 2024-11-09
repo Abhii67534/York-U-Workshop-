@@ -11,11 +11,12 @@ function App() {
       {/* Header Section */}
       <header className="bg-gradient-to-r from-indigo-500 via-purple-600 to-pink-500 text-white text-center py-12 sm:py-16 lg:py-20 h-screen flex items-center justify-center">
         <div className="flex-col items-center justify-center ">
-          <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold mb-2">
+          <h1 className="text-3xl sm:text-4xl lg:text-7xl font-bold mb-4">Workshop</h1>
+          <h1 className="text-3xl sm:text-4xl lg:text-7xl font-bold mb-4">
             {" "}
-            Workshop: Using OpenCV in Game Development
+             Using <span className="text-transparent bg-clip-text bg-gradient-to-l from-blue-500 via-green-500 to-rose-500 ">OpenCV</span> in Game Development
           </h1>
-          <p className="text-lg sm:text-xl mb-6">
+          <p className="text-lg sm:text-2xl mb-10">
             A hands-on workshop exploring OpenCV and its applications.
           </p>
           <a
@@ -25,7 +26,15 @@ function App() {
             Workshop Github Link
           </a>
 
-          <section className=" mt-20 bg-gray-900 text-white py-16 rounded-xl">
+ 
+        
+
+
+        </div>
+      </header>
+
+      {/* "What You Will Learn" Section */}
+      <section className=" bg-gray-900 text-white py-16 ">
             <div className="max-w-7xl mx-auto px-4">
               <h2 className="text-3xl sm:text-4xl font-bold mb-6">
                 What You Will Learn
@@ -61,10 +70,6 @@ function App() {
               </div>
             </div>
           </section>
-        </div>
-      </header>
-
-      {/* "What You Will Learn" Section */}
 
       {/* TEAM MEMBERS */}
       <section id="team" className="py-16 bg-gray-100">
@@ -77,9 +82,9 @@ function App() {
           {/* Team Member 1 */}
           <div className="flex flex-col items-center">
             <img
-              src="/placeholder.png"
+              src="/hasan.jpg"
               alt="Team Member 1"
-              className="rounded-full w-24 h-24 mb-4"
+              className="rounded-full w-24 h-24 mb-4 object-cover"
             />
             <h3 className="text-lg font-medium">Hasan</h3>
             <p className="text-sm text-center">
@@ -92,14 +97,20 @@ function App() {
             >
               GitHub
             </a>
+            <a
+              href="https://www.linkedin.com/in/hasan-in/"
+              className="text-blue-500 hover:text-blue-600"
+            >
+              LinkedIn
+            </a>
           </div>
 
           {/* Team Member 2 */}
           <div className="flex flex-col items-center">
             <img
-              src="/placeholder.png"
+              src="/masuma.png"
               alt="Team Member 2"
-              className="rounded-full w-24 h-24 mb-4"
+              className="rounded-full w-24 h-24 mb-4 object-cover"
             />
             <h3 className="text-lg font-medium">Masuma Begum</h3>
             <p className="text-sm text-center">
@@ -112,14 +123,20 @@ function App() {
             >
               GitHub
             </a>
+            <a
+              href="https://www.linkedin.com/in/masuma131/"
+              className="text-blue-500 hover:text-blue-600"
+            >
+              LinkedIn
+            </a>
           </div>
 
           {/* Team Member 3 */}
           <div className="flex flex-col items-center">
             <img
-              src="/placeholder.png"
+              src="/abhi.jpg"
               alt="Team Member 3"
-              className="rounded-full w-24 h-24 mb-4"
+              className="rounded-full w-24 h-24 mb-4 object-cover"
             />
             <h3 className="text-lg font-medium">Abhishek Sharma</h3>
             <p className="text-sm text-center">
@@ -132,17 +149,23 @@ function App() {
             >
               GitHub
             </a>
+            <a
+              href="https://www.linkedin.com/in/abhishek-sharma1999/"
+              className="text-blue-500 hover:text-blue-600"
+            >
+              LinkedIn
+            </a>
           </div>
 
           {/* Team Member 4 */}
           <div className="flex flex-col items-center">
             <img
-              src="/placeholder.png"
+              src="/mubs.jpg"
               alt="Team Member 4"
-              className="rounded-full w-24 h-24 mb-4"
+              className="rounded-full w-24 h-24 mb-4 object-cover"
             />
             <h3 className="text-lg font-medium">Mubassir Mohmed Sapa</h3>
-            <p className="text-sm text-center">
+            <p className="text-sm text-center ">
               3rd Year Student @Seneca Polytechnic
             </p>
             <p className="text-sm text-center">B.E in Software Engineering</p>
@@ -151,6 +174,12 @@ function App() {
               className="text-blue-500 hover:text-blue-600"
             >
               GitHub
+            </a>
+            <a
+              href="https://www.linkedin.com/in/mubassir-mohmed-sapa-24165b269/"
+              className="text-blue-500 hover:text-blue-600"
+            >
+              LinkedIn
             </a>
           </div>
 
@@ -163,7 +192,7 @@ function App() {
             />
             <h3 className="text-lg font-medium">Ryan Dang</h3>
             <p className="text-sm text-center">
-              3rd Year Student @Seneca Polytechnic
+              2rd Year Student @Seneca Polytechnic
             </p>
             <p className="text-sm text-center">B.E in Software Engineering</p>
             <a
@@ -171,6 +200,12 @@ function App() {
               className="text-blue-500 hover:text-blue-600"
             >
               GitHub
+            </a>
+            <a
+              href="https://github.com/MohHasan1"
+              className="text-blue-500 hover:text-blue-600"
+            >
+              LinkedIn
             </a>
           </div>
         </div>
