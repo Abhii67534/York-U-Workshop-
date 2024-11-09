@@ -123,7 +123,7 @@ function App() {
           alt="Team Member 4"
           className="rounded-full w-24 h-24 mb-4 object-cover"
         />
-        <h3 className="text-lg font-medium text-center mb-2">Mubassir Mohmed Sapa</h3>
+        <h3 className="text-lg font-medium text-center mb-2">Mubassir Sapa</h3>
         <p className="text-sm text-center mb-2">3rd Year Student @Seneca Polytechnic</p>
         <p className="text-sm text-center mb-2">B.E in Software Engineering</p>
         <a
