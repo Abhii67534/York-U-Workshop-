@@ -1,5 +1,5 @@
 import "./App.css";
-
+import Meteors from "./components/ui/meteors";
 import { MagicCard } from "./components/ui/magic-card";
 import { Button } from "./components/ui/button";
 
@@ -7,6 +7,7 @@ function App() {
   return (
     <div className="bg-darkBg h-screen">
       
+      <Meteors />
 
       {/* Header Section */}
       <header className="bg-gradient-to-r from-indigo-500 via-purple-600 to-pink-500 text-white text-center py-12 sm:py-16 lg:py-20 h-screen flex items-center justify-center">
